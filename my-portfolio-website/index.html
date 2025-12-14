@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - S.Gowthami</title>
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      margin: 0;
+      background: linear-gradient(135deg,#0f0c29,#302b63,#24243e);
+      color: white;
+    }
+
+    h1 {
+      margin-top: 15px;
+      color: #ff4ecd;
+      font-size: 32px;
+      letter-spacing: 2px;
+    }
+
+    nav {
+      padding: 15px;
+      background: rgba(255,255,255,0.08);
+      backdrop-filter: blur(8px);
+      position: sticky;
+      top: 0;
+      border-bottom: 1px solid rgba(255,255,255,0.3);
+    }
+
+    nav button {
+      padding: 10px 22px;
+      margin: 6px;
+      border: none;
+      font-size: 15px;
+      border-radius: 8px;
+      background: linear-gradient(45deg,#ff4ecd,#7b2ff7);
+      color: white;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    nav button:hover {
+      transform: scale(1.1);
+      background: linear-gradient(45deg,#7b2ff7,#ff4ecd);
+    }
+
+    .page {
+      display: none;
+      padding: 20px;
+      min-height: 80vh;
+    }
+
+    .card {
+      width: 300px;
+      background: rgba(255,255,255,0.1);
+      padding: 15px;
+      margin: 15px auto;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(255,78,205,0.5);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    a {
+      color: #ffb3ec;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      padding: 15px;
+      background: rgba(0,0,0,0.4);
+      color: #ff4ecd;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>💫 Portfolio - S.Gowthami</h1>
+
+<nav>
+  <button onclick="showPage('home')">Home</button>
+  <button onclick="showPage('about')">About</button>
+  <button onclick="showPage('projects')">Projects</button>
+  <button onclick="showPage('skills')">Skills</button>
+  <button onclick="showPage('contact')">Contact</button>
+</nav>
+
+<!-- HOME -->
+<div id="home" class="page" style="display:block;">
+  <h2>👋 Welcome to My Portfolio</h2>
+  <div class="card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9gBaW5q6ywK5LOQ2b2A8NR_F1UxcaJOBLCA&usqp=CAU" width="150">
+    <h3>Hi, I'm <span style="color:#ff4ecd;">S.Gowthami</span></h3>
+    <p>CSE Student | Aspiring Full Stack Developer | Coding Enthusiast</p>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<div id="about" class="page">
+  <h2>💁🏻‍♀️ About Me</h2>
+  <p>I am a passionate CSE student and an aspiring Full Stack Web Developer.</p>
+  <p>I love building creative websites and solving problems through code.</p>
+</div>
+
+<!-- SKILLS -->
+<div id="skills" class="page">
+  <h2>🛠️ My Skills</h2>
+  <p>Python ⭐⭐⭐⭐</p>
+  <p>HTML ⭐⭐⭐</p>
+  <p>MS Excel ⭐⭐⭐</p>
+  <p>Java ⭐⭐⭐</p>
+  <p>Frontend Development ⭐⭐⭐⭐</p>
+  <p>Communication ⭐⭐⭐</p>
+</div>
+
+<!-- PROJECTS -->
+<div id="projects" class="page">
+  <h2>👩🏻‍💻 My Projects</h2>
+
+  <p>
+    <a href="https://sheelagowthami.github.io/Html-projects-/" target="_blank">
+      🔗 HTML Projects Portfolio
+    </a>
+  </p>
+
+  <h3>List of My Finished Projects</h3>
+
+  <p><b>1) About Me Page</b> – <a href="https://sheelagowthami.github.io/Html-projects-/about-me-page/" target="_blank">View</a></p>
+  <p><b>2) Anime Website</b> – <a href="https://sheelagowthami.github.io/Html-projects-/anime-website/" target="_blank">View</a></p>
+  <p><b>3) Biography of a Leader</b> – <a href="https://sheelagowthami.github.io/Html-projects-/biography-of-a-leader/" target="_blank">View</a></p>
+  <p><b>4) Blog Article</b> – <a href="https://sheelagowthami.github.io/Html-projects-/blog-article/" target="_blank">View</a></p>
+  <p><b>5) Demon Slayer Characters</b> – <a href="https://sheelagowthami.github.io/Html-projects-/demon-slayer-anime-characters/" target="_blank">View</a></p>
+  <p><b>6) Full Stack Developer Curriculum</b> – <a href="https://sheelagowthami.github.io/Html-projects-/full-stack-developer-curriculum/" target="_blank">View</a></p>
+  <p><b>7) Online Shopping Website</b> – <a href="https://sheelagowthami.github.io/Html-projects-/online-shopping-mini-website/" target="_blank">View</a></p>
+  <p><b>8) Photo Gallery</b> – <a href="https://sheelagowthami.github.io/Html-projects-/photo-gallery/" target="_blank">View</a></p>
+  <p><b>9) Recipe Website</b> – <a href="https://sheelagowthami.github.io/Html-projects-/recipe-website/" target="_blank">View</a></p>
+  <p><b>10) Science Formula Page</b> – <a href="https://sheelagowthami.github.io/Html-projects-/science-formula-web-page/" target="_blank">View</a></p>
+  <p><b>11) Solar System Website</b> – <a href="https://sheelagowthami.github.io/Html-projects-/solar-system-website/" target="_blank">View</a></p>
+</div>
+
+<!-- CONTACT -->
+<div id="contact" class="page">
+  <h2>📞 Contact Details</h2>
+
+  <p>Email:
+    <a href="mailto:sheela.gowthami.4007@gmail.com">
+      sheela.gowthami.4007@gmail.com
+    </a>
+  </p>
+
+  <p>GitHub:
+    <a href="https://github.com/sheelagowthami" target="_blank">
+      github.com/sheelagowthami
+    </a>
+  </p>
+</div>
+
+<footer>
+  © 2025 S.Gowthami
+</footer>
+
+<!-- JAVASCRIPT -->
+<script>
+  function showPage(pageId) {
+    let pages = document.querySelectorAll('.page');
+    pages.forEach(page => page.style.display = 'none');
+    document.getElementById(pageId).style.display = 'block';
+  }
+</script>
+
+</body>
+    </html>
