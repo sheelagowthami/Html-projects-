@@ -1,13 +1,29 @@
-Personal Portfolio Website 👩🏻‍💻
-A personal portfolio website to showcase my profile, skills, and projects as an aspiring Full Stack Developer.
-Features
-About, Skills, Projects, and Contact sections
-Project links with live demos
-Contact information with GitHub and LinkedIn
-Simple and clean layout for easy navigation
-Technologies Used
-HTML5
-Live Demo
-https://your-link.github.io/your-portfolio/
-Author
-Sheela Gowthami
+
+# Personal Portfolio Website 👩‍💻
+
+A simple personal portfolio website built using HTML to showcase my skills, projects, and contact information.
+
+## Features
+- About section with personal introduction
+- Skills section (Programming, Web, Soft Skills)
+- Projects section with live project links
+- Contact section with email, GitHub, and LinkedIn
+- Clean and beginner-friendly structure
+
+## Technologies Used
+- HTML5
+
+## Live Demo
+👉 https://sheelagowthami.github.io/Html-projects-/personal-portfolio/
+
+## Purpose of the Project
+This project helped me understand how to structure a personal website and present my work professionally as a CSE student.
+
+## Author
+Sheela Gowthami  
+
+
+
+
+
+
