@@ -13,7 +13,7 @@ A simple personal portfolio website built using HTML to showcase my skills, proj
 - HTML5
 
 ## Live Demo
-👉 https://sheelagowthami.github.io/Html-projects-/personal-portfolio/
+👉 https://sheelagowthami.github.io/Html-projects-/personal-portfolio-website/
 
 ## Purpose of the Project
 This project helped me understand how to structure a personal website and present my work professionally as a CSE student.
